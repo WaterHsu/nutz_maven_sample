@@ -15,7 +15,7 @@ import com.my.maven.nutz.pro.my_maven_nutz_sample.thrift.Hello.Processor;
  * @version 2014年8月22日
  */
 public class Server {
-	@SuppressWarnings("")
+	
 	public void startServer(){
 		try{
 			System.out.println("thrift server open port 1234");
