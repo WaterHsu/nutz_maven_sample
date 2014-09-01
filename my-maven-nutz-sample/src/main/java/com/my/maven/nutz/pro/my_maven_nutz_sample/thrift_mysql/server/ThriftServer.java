@@ -136,6 +136,7 @@ public class ThriftServer {
 				 */
 				TServer server = new TNonblockingServer(tnbArgs);
 				server.serve();
+				
 			}catch(Exception e){
 				e.printStackTrace();
 			}
