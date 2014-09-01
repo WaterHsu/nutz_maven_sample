@@ -14,7 +14,7 @@ public class SpringQuartzTest {
 	public void testSpringQuartzPopular() throws Exception{
 		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		Thread.sleep(120000);
-		System.out.println("Test end ...");
+		System.out.println("Test end ..fff.");
 	}
 	
 	@Test
