@@ -1,4 +1,4 @@
-package com.my.maven.nutz.pro.my_maven_nutz_sample.thrift_mysql.client;
+package com.my.maven.nutz.pro.my_maven_nutz_sample.thrift_mysql.server;
 
 import org.apache.thrift.TProcessor;
 import org.apache.thrift.protocol.TBinaryProtocol;
