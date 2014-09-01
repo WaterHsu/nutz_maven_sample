@@ -3,7 +3,6 @@ package com.my.maven.nutz.pro.my_maven_nutz_sample.spring_javamail;
 import java.io.Serializable;
 
 import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.multipart.support.MultipartFilter;
 
 /**
  * @author WaterHsu@xiu8.com
