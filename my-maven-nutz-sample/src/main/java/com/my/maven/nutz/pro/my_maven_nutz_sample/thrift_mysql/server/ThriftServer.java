@@ -60,6 +60,7 @@ public class ThriftServer {
 				TThreadPoolServer.Args ttpsArgs = new TThreadPoolServer.Args(serverTransport);
 				ttpsArgs.processor(tprocessor);
 				ttpsArgs.protocolFactory(new TBinaryProtocol.Factory());
+				
 				/**
 				 * 线程池服务模型，使用标准的阻塞IO，预先创建一组县城处理请求
 				 */
